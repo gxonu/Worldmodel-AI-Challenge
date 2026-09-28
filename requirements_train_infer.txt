@@ -1,0 +1,25 @@
+# Overlay pins for the upstream Cosmos `uv sync --extra cu128` environment.
+# Do not use this file as a standalone replacement for Cosmos dependencies.
+torch==2.7.0+cu128
+torchvision==0.22.0+cu128
+numpy==2.2.6
+pandas==2.3.3
+pyarrow==22.0.0
+Pillow==11.3.0
+imageio==2.37.0
+imageio-ffmpeg==0.6.0
+av==16.0.1
+opencv-python==4.11.0.86
+peft==0.17.1
+transformers==4.51.3
+diffusers==0.35.2
+safetensors==0.6.2
+tqdm==4.67.1
+einops==0.8.1
+omegaconf==2.3.0
+scipy==1.15.3
+huggingface-hub==0.36.0
+ftfy==6.3.1
+regex==2025.10.23
+sentencepiece==0.2.1
+protobuf==6.33.0

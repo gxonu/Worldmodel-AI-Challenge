@@ -1,0 +1,38 @@
+{
+  "checkpoint": "weights/v014_stride4_200k_soup.pt",
+  "architecture": "cosmos_action_chunk_adaln_lora_r32",
+  "frames_generated": 16,
+  "height": 320,
+  "width": 512,
+  "fps": 6,
+  "sampler": "FlowUniPCMultistepScheduler",
+  "steps": 30,
+  "shift": 5.0,
+  "seed": 7,
+  "guidance": 0.0,
+  "action_cfg": 0.0,
+  "auto_guidance": 0.6,
+  "noise_averages": 1,
+  "relada": false,
+  "reference_adapter": false,
+  "warped_noise": false,
+  "postprocess": {
+    "route_source": "supplied_action_only",
+    "shoulder_lift_index": 1,
+    "shoulder_lift_mean_threshold_deg": 45.0,
+    "motion_difference_threshold": 0.06,
+    "mask_open_kernel": 3,
+    "mask_dilation": 15,
+    "mask_gaussian_sigma": 3.0,
+    "video_codec": "libx264",
+    "video_crf": 12,
+    "video_preset": "medium"
+  },
+  "submission_kit": {
+    "feature_batch_size": 8,
+    "temporal_length": 16,
+    "target_height": 320,
+    "target_width": 512,
+    "pad": true
+  }
+}

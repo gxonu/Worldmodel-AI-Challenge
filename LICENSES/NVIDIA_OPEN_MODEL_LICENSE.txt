@@ -1,0 +1,89 @@
+NVIDIA Open Model License Agreement — Convenience Summary
+Version Release Date: September 23, 2025
+
+This file is a non-authoritative convenience summary, not a substitute for the
+Agreement. The authoritative agreement distributed with the model is available
+at the URL at the end of this file and must be reviewed in full.
+
+This Agreement governs use of NVIDIA Models released under the NVIDIA Open
+Model License. By using, reproducing, modifying, distributing, performing or
+displaying any portion or element of a Model or Derivative Model, you agree to
+be bound by the Agreement.
+
+1. Definitions
+
+1.1. Derivative Model means modifications to, works based on, and other
+derivative works of the Model. An output is not a Derivative Model.
+1.2. Legal Entity includes the acting entity and entities under common control.
+1.3. Model includes model software, checkpoints, weights, algorithms,
+parameters, configuration files, and documentation shared under this Agreement.
+1.4. NVIDIA Cosmos Model means a multimodal Model shared under this Agreement.
+1.5. Special-Purpose Model means a narrow purpose-specific Model.
+1.6. You or Your means the individual or Legal Entity exercising these rights.
+
+2. Conditions, License Grant, AI Ethics and Ownership
+
+The Model and Derivative Models are subject to this Agreement. Copyright or
+patent litigation alleging that a Model or Derivative Model infringes rights
+terminates granted licenses. Bypassing a technical limitation, safety
+guardrail, encryption, DRM, or authentication mechanism without a substantially
+similar guardrail terminates granted rights. NVIDIA may designate a Model as a
+Special-Purpose Model and may update this Agreement for legal compliance.
+
+NVIDIA grants a perpetual, worldwide, non-exclusive, no-charge, royalty-free,
+revocable license to publicly perform, publicly display, reproduce, use, create
+derivative works of, make, have made, sell, offer for sale, distribute, and
+import the Model. Use must be consistent with NVIDIA Trustworthy AI terms.
+NVIDIA owns the Model and its own derivatives; You own Your Model Derivatives.
+NVIDIA claims no ownership in outputs and otherwise reserves all rights.
+
+3. Redistribution
+
+You may reproduce and distribute the Model or Derivative Models, with or
+without modifications, if recipients receive a copy of this Agreement and a
+Notice containing “Licensed by NVIDIA Corporation under the NVIDIA Open Model
+License”. Distribution of an NVIDIA Cosmos Model or derived product/service
+must also include “Built on NVIDIA Cosmos”. You may add terms for Your changes
+provided use remains compliant with this Agreement.
+
+4. Separate Components
+
+Separate components may have their own legal notices and licenses. Those terms
+apply unless overridden here or third-party terms require otherwise.
+
+5. Trademarks
+
+No trademark permission is granted except reasonable descriptive use.
+
+6. Disclaimer of Warranty
+
+The Model is provided “AS IS”, without warranties including title,
+non-infringement, merchantability, or fitness for a particular purpose. You
+assume the risks of use.
+
+7. Limitation of Liability
+
+NVIDIA is not liable for direct, indirect, incidental, or consequential damages
+from use, unless required by law.
+
+8. Indemnity
+
+You will indemnify and hold NVIDIA harmless against third-party claims arising
+from Your use or distribution of Models, derivatives, or outputs.
+
+9. Feedback
+
+NVIDIA may use feedback without restriction or compensation.
+
+10. Governing Law
+
+U.S. and Delaware law govern. Courts in Santa Clara County, California have
+exclusive jurisdiction, except for urgent injunctive relief.
+
+11. Trade and Compliance
+
+You must comply with all applicable export, import, trade, and sanctions laws,
+including U.S. EAR and OFAC rules.
+
+Authoritative agreement text:
+https://huggingface.co/nvidia/Cosmos-Predict2.5-2B

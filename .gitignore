@@ -1,0 +1,9 @@
+weights/*.pt
+data/
+submission_kit/
+pretrained/
+outputs/
+work/
+__pycache__/
+*.pyc
+*.egg-info/

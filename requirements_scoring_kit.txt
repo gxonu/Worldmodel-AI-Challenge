@@ -1,0 +1,16 @@
+# Official Submission Kit environment (Python 3.12.8), separate from Cosmos.
+torch==2.7.1+cu128
+torchvision==0.22.1+cu128
+numpy==1.26.4
+pandas==3.0.2
+pillow==10.2.0
+imageio==2.37.2
+imageio-ffmpeg==0.6.0
+av==16.0.1
+pytorch-lightning==2.6.0
+torchmetrics==1.8.2
+timm==0.9.16
+einops==0.8.1
+omegaconf==2.3.0
+tqdm==4.67.1
+safetensors==0.5.2

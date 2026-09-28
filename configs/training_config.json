@@ -1,0 +1,50 @@
+{
+  "seed": {
+    "torch_base": 20260807,
+    "sampler": 1234
+  },
+  "input": {
+    "frames": 17,
+    "predicted_frames": 16,
+    "height": 320,
+    "width": 512,
+    "fps": 6,
+    "action_dimensions": 6
+  },
+  "model": {
+    "base": "Cosmos-Predict2.5-2B action-conditioned",
+    "lora_rank": 32,
+    "lora_alpha": 32,
+    "target_modules": ["q_proj", "k_proj", "v_proj", "output_proj", "layer1", "layer2"]
+  },
+  "stage1": {
+    "latent_stride": 8,
+    "start_step": 0,
+    "stop_step": 4375,
+    "micro_batch": 8,
+    "effective_batch": 8,
+    "learning_rate": 0.00005,
+    "motion_power": 1.0,
+    "save_every": 625
+  },
+  "latent_idm2": {
+    "steps": 25000,
+    "batch": 64,
+    "learning_rate": 0.0003,
+    "noise_max": 0.1,
+    "ema_decay": 0.999
+  },
+  "stage2": {
+    "latent_stride": 4,
+    "resume_step": 4375,
+    "stop_step": 25000,
+    "micro_batch": 8,
+    "effective_batch": 8,
+    "learning_rate": 0.00005,
+    "motion_power": 1.0,
+    "aux_probability": 0.3,
+    "aux_weight": 0.3,
+    "save_every": 625
+  },
+  "soup_steps": [23125, 23750, 24375, 25000]
+}

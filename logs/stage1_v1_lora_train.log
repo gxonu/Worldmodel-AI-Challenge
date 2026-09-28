@@ -1,0 +1,271 @@
+[08-14 00:27:40|INFO|../../../../ext_repos/cosmos-predict2.5/cosmos_predict2/_src/predict2/networks/minimal_v4_dit.py:1804:enable_selective_checkpoint] Enable selective checkpoint with mm_only, for every 1 blocks. Total blocks: 28
+[08-14 00:27:40|INFO|../../../../ext_repos/cosmos-predict2.5/cosmos_predict2/_src/predict2/networks/minimal_v4_dit.py:1810:enable_selective_checkpoint] Enable selective checkpoint for block 0
+[08-14 00:27:40|INFO|../../../../ext_repos/cosmos-predict2.5/cosmos_predict2/_src/predict2/networks/minimal_v4_dit.py:1810:enable_selective_checkpoint] Enable selective checkpoint for block 1
+[08-14 00:27:40|INFO|../../../../ext_repos/cosmos-predict2.5/cosmos_predict2/_src/predict2/networks/minimal_v4_dit.py:1810:enable_selective_checkpoint] Enable selective checkpoint for block 2
+[08-14 00:27:40|INFO|../../../../ext_repos/cosmos-predict2.5/cosmos_predict2/_src/predict2/networks/minimal_v4_dit.py:1810:enable_selective_checkpoint] Enable selective checkpoint for block 3
+[08-14 00:27:40|INFO|../../../../ext_repos/cosmos-predict2.5/cosmos_predict2/_src/predict2/networks/minimal_v4_dit.py:1810:enable_selective_checkpoint] Enable selective checkpoint for block 4
+[08-14 00:27:40|INFO|../../../../ext_repos/cosmos-predict2.5/cosmos_predict2/_src/predict2/networks/minimal_v4_dit.py:1810:enable_selective_checkpoint] Enable selective checkpoint for block 5
+[08-14 00:27:40|INFO|../../../../ext_repos/cosmos-predict2.5/cosmos_predict2/_src/predict2/networks/minimal_v4_dit.py:1810:enable_selective_checkpoint] Enable selective checkpoint for block 6
+[08-14 00:27:40|INFO|../../../../ext_repos/cosmos-predict2.5/cosmos_predict2/_src/predict2/networks/minimal_v4_dit.py:1810:enable_selective_checkpoint] Enable selective checkpoint for block 7
+[08-14 00:27:40|INFO|../../../../ext_repos/cosmos-predict2.5/cosmos_predict2/_src/predict2/networks/minimal_v4_dit.py:1810:enable_selective_checkpoint] Enable selective checkpoint for block 8
+[08-14 00:27:40|INFO|../../../../ext_repos/cosmos-predict2.5/cosmos_predict2/_src/predict2/networks/minimal_v4_dit.py:1810:enable_selective_checkpoint] Enable selective checkpoint for block 9
+[08-14 00:27:40|INFO|../../../../ext_repos/cosmos-predict2.5/cosmos_predict2/_src/predict2/networks/minimal_v4_dit.py:1810:enable_selective_checkpoint] Enable selective checkpoint for block 10
+[08-14 00:27:40|INFO|../../../../ext_repos/cosmos-predict2.5/cosmos_predict2/_src/predict2/networks/minimal_v4_dit.py:1810:enable_selective_checkpoint] Enable selective checkpoint for block 11
+[08-14 00:27:40|INFO|../../../../ext_repos/cosmos-predict2.5/cosmos_predict2/_src/predict2/networks/minimal_v4_dit.py:1810:enable_selective_checkpoint] Enable selective checkpoint for block 12
+[08-14 00:27:40|INFO|../../../../ext_repos/cosmos-predict2.5/cosmos_predict2/_src/predict2/networks/minimal_v4_dit.py:1810:enable_selective_checkpoint] Enable selective checkpoint for block 13
+[08-14 00:27:40|INFO|../../../../ext_repos/cosmos-predict2.5/cosmos_predict2/_src/predict2/networks/minimal_v4_dit.py:1810:enable_selective_checkpoint] Enable selective checkpoint for block 14
+[08-14 00:27:40|INFO|../../../../ext_repos/cosmos-predict2.5/cosmos_predict2/_src/predict2/networks/minimal_v4_dit.py:1810:enable_selective_checkpoint] Enable selective checkpoint for block 15
+[08-14 00:27:40|INFO|../../../../ext_repos/cosmos-predict2.5/cosmos_predict2/_src/predict2/networks/minimal_v4_dit.py:1810:enable_selective_checkpoint] Enable selective checkpoint for block 16
+[08-14 00:27:40|INFO|../../../../ext_repos/cosmos-predict2.5/cosmos_predict2/_src/predict2/networks/minimal_v4_dit.py:1810:enable_selective_checkpoint] Enable selective checkpoint for block 17
+[08-14 00:27:40|INFO|../../../../ext_repos/cosmos-predict2.5/cosmos_predict2/_src/predict2/networks/minimal_v4_dit.py:1810:enable_selective_checkpoint] Enable selective checkpoint for block 18
+[08-14 00:27:40|INFO|../../../../ext_repos/cosmos-predict2.5/cosmos_predict2/_src/predict2/networks/minimal_v4_dit.py:1810:enable_selective_checkpoint] Enable selective checkpoint for block 19
+[08-14 00:27:40|INFO|../../../../ext_repos/cosmos-predict2.5/cosmos_predict2/_src/predict2/networks/minimal_v4_dit.py:1810:enable_selective_checkpoint] Enable selective checkpoint for block 20
+[08-14 00:27:40|INFO|../../../../ext_repos/cosmos-predict2.5/cosmos_predict2/_src/predict2/networks/minimal_v4_dit.py:1810:enable_selective_checkpoint] Enable selective checkpoint for block 21
+[08-14 00:27:40|INFO|../../../../ext_repos/cosmos-predict2.5/cosmos_predict2/_src/predict2/networks/minimal_v4_dit.py:1810:enable_selective_checkpoint] Enable selective checkpoint for block 22
+[08-14 00:27:40|INFO|../../../../ext_repos/cosmos-predict2.5/cosmos_predict2/_src/predict2/networks/minimal_v4_dit.py:1810:enable_selective_checkpoint] Enable selective checkpoint for block 23
+[08-14 00:27:40|INFO|../../../../ext_repos/cosmos-predict2.5/cosmos_predict2/_src/predict2/networks/minimal_v4_dit.py:1810:enable_selective_checkpoint] Enable selective checkpoint for block 24
+[08-14 00:27:40|INFO|../../../../ext_repos/cosmos-predict2.5/cosmos_predict2/_src/predict2/networks/minimal_v4_dit.py:1810:enable_selective_checkpoint] Enable selective checkpoint for block 25
+[08-14 00:27:40|INFO|../../../../ext_repos/cosmos-predict2.5/cosmos_predict2/_src/predict2/networks/minimal_v4_dit.py:1810:enable_selective_checkpoint] Enable selective checkpoint for block 26
+[08-14 00:27:40|INFO|../../../../ext_repos/cosmos-predict2.5/cosmos_predict2/_src/predict2/networks/minimal_v4_dit.py:1810:enable_selective_checkpoint] Enable selective checkpoint for block 27
+[08-14 00:27:40|INFO|../../../../ext_repos/cosmos-predict2.5/cosmos_predict2/_src/predict2/action/networks/action_conditioned_minimal_v1_lvg_dit.py:217:__init__] hidden_dim_in_action_embedder: 8192
+load: missing=4 (embedder fc1 포함 정상) unexpected=0
+trainable params: 113.4M
+DDP world_size=1, per_gpu_batch=8, global_micro_batch=8, accum=1, effective_batch=8
+ACT_DROP=0 (액션 드롭아웃 없음)
+latent mode ON: 104368 windows, motion-weighted (p50=0.0638, MOTION_POW=1, 가중치 0.30~3.00배)
+sampler: 중복 허용 seed=1234 전역 뽑기 104,368회/epoch, rank별 분할
+val 손실 측정 ON: 창 96개, 625 스텝마다 (에피소드 단위 분리, 고정 노이즈)
+시작 스텝 0 → 4375 에서 종료
+step 20 exposure 160 rf 0.8473(20) 1.64s/it mem/rank 73.9GB
+step 40 exposure 320 rf 0.3361(20) 1.23s/it mem/rank 73.9GB
+step 60 exposure 480 rf 0.2801(20) 1.23s/it mem/rank 73.9GB
+step 80 exposure 640 rf 0.2101(20) 1.23s/it mem/rank 73.9GB
+step 100 exposure 800 rf 0.1897(20) 1.23s/it mem/rank 73.9GB
+step 120 exposure 960 rf 0.1451(20) 1.22s/it mem/rank 73.9GB
+step 140 exposure 1120 rf 0.1498(20) 1.24s/it mem/rank 73.9GB
+step 160 exposure 1280 rf 0.1350(20) 1.22s/it mem/rank 73.9GB
+step 180 exposure 1440 rf 0.1139(20) 1.22s/it mem/rank 73.9GB
+step 200 exposure 1600 rf 0.1270(20) 1.23s/it mem/rank 73.9GB
+step 220 exposure 1760 rf 0.1346(20) 1.23s/it mem/rank 73.9GB
+step 240 exposure 1920 rf 0.1196(20) 1.22s/it mem/rank 73.9GB
+step 260 exposure 2080 rf 0.1191(20) 1.23s/it mem/rank 73.9GB
+step 280 exposure 2240 rf 0.1267(20) 1.22s/it mem/rank 73.9GB
+step 300 exposure 2400 rf 0.1122(20) 1.22s/it mem/rank 73.9GB
+step 320 exposure 2560 rf 0.1183(20) 1.22s/it mem/rank 73.9GB
+step 340 exposure 2720 rf 0.1008(20) 1.23s/it mem/rank 73.9GB
+step 360 exposure 2880 rf 0.0951(20) 1.22s/it mem/rank 73.9GB
+step 380 exposure 3040 rf 0.0980(20) 1.22s/it mem/rank 73.9GB
+step 400 exposure 3200 rf 0.1008(20) 1.23s/it mem/rank 73.9GB
+step 420 exposure 3360 rf 0.0999(20) 1.22s/it mem/rank 73.9GB
+step 440 exposure 3520 rf 0.1130(20) 1.23s/it mem/rank 73.9GB
+step 460 exposure 3680 rf 0.0992(20) 1.22s/it mem/rank 73.9GB
+step 480 exposure 3840 rf 0.1035(20) 1.23s/it mem/rank 73.9GB
+step 500 exposure 4000 rf 0.1035(20) 1.22s/it mem/rank 73.9GB
+step 520 exposure 4160 rf 0.1020(20) 1.23s/it mem/rank 73.9GB
+step 540 exposure 4320 rf 0.0930(20) 1.22s/it mem/rank 73.9GB
+step 560 exposure 4480 rf 0.0948(20) 1.22s/it mem/rank 73.9GB
+step 580 exposure 4640 rf 0.1052(20) 1.23s/it mem/rank 73.9GB
+step 600 exposure 4800 rf 0.0852(20) 1.22s/it mem/rank 73.9GB
+step 620 exposure 4960 rf 0.0913(20) 1.22s/it mem/rank 73.9GB
+VAL step 625 val_loss 0.15224  (32초)
+saved checkpoint at step 625
+step 640 exposure 5120 rf 0.0851(20) 2.29s/it mem/rank 73.9GB
+step 660 exposure 5280 rf 0.0861(20) 1.24s/it mem/rank 73.9GB
+step 680 exposure 5440 rf 0.0960(20) 1.25s/it mem/rank 73.9GB
+step 700 exposure 5600 rf 0.0870(20) 1.22s/it mem/rank 73.9GB
+step 720 exposure 5760 rf 0.0871(20) 1.22s/it mem/rank 73.9GB
+step 740 exposure 5920 rf 0.0852(20) 1.22s/it mem/rank 73.9GB
+step 760 exposure 6080 rf 0.0848(20) 1.21s/it mem/rank 73.9GB
+step 780 exposure 6240 rf 0.0869(20) 1.20s/it mem/rank 73.9GB
+step 800 exposure 6400 rf 0.0841(20) 1.20s/it mem/rank 73.9GB
+step 820 exposure 6560 rf 0.0943(20) 1.20s/it mem/rank 73.9GB
+step 840 exposure 6720 rf 0.0872(20) 1.20s/it mem/rank 73.9GB
+step 860 exposure 6880 rf 0.0867(20) 1.20s/it mem/rank 73.9GB
+step 880 exposure 7040 rf 0.0779(20) 1.21s/it mem/rank 73.9GB
+step 900 exposure 7200 rf 0.0828(20) 1.22s/it mem/rank 73.9GB
+step 920 exposure 7360 rf 0.0916(20) 1.20s/it mem/rank 73.9GB
+step 940 exposure 7520 rf 0.0921(20) 1.21s/it mem/rank 73.9GB
+step 960 exposure 7680 rf 0.0925(20) 1.23s/it mem/rank 73.9GB
+step 980 exposure 7840 rf 0.0860(20) 1.23s/it mem/rank 73.9GB
+step 1000 exposure 8000 rf 0.0883(20) 1.23s/it mem/rank 73.9GB
+step 1020 exposure 8160 rf 0.0814(20) 1.24s/it mem/rank 73.9GB
+step 1040 exposure 8320 rf 0.0851(20) 1.23s/it mem/rank 73.9GB
+step 1060 exposure 8480 rf 0.0841(20) 1.25s/it mem/rank 73.9GB
+step 1080 exposure 8640 rf 0.0769(20) 1.24s/it mem/rank 73.9GB
+step 1100 exposure 8800 rf 0.0805(20) 1.22s/it mem/rank 73.9GB
+step 1120 exposure 8960 rf 0.0892(20) 1.23s/it mem/rank 73.9GB
+step 1140 exposure 9120 rf 0.0778(20) 1.23s/it mem/rank 73.9GB
+step 1160 exposure 9280 rf 0.0814(20) 1.23s/it mem/rank 73.9GB
+step 1180 exposure 9440 rf 0.0833(20) 1.23s/it mem/rank 73.9GB
+step 1200 exposure 9600 rf 0.0764(20) 1.23s/it mem/rank 73.9GB
+step 1220 exposure 9760 rf 0.0905(20) 1.23s/it mem/rank 73.9GB
+step 1240 exposure 9920 rf 0.0871(20) 1.23s/it mem/rank 73.9GB
+VAL step 1250 val_loss 0.14868  (32초)
+saved checkpoint at step 1250
+step 1260 exposure 10080 rf 0.1017(20) 2.12s/it mem/rank 73.9GB
+step 1280 exposure 10240 rf 0.1054(20) 1.25s/it mem/rank 73.9GB
+step 1300 exposure 10400 rf 0.1108(20) 1.29s/it mem/rank 73.9GB
+step 1320 exposure 10560 rf 0.1195(20) 1.26s/it mem/rank 73.9GB
+step 1340 exposure 10720 rf 0.0958(20) 1.20s/it mem/rank 73.9GB
+step 1360 exposure 10880 rf 0.0977(20) 1.20s/it mem/rank 73.9GB
+step 1380 exposure 11040 rf 0.0936(20) 1.20s/it mem/rank 73.9GB
+step 1400 exposure 11200 rf 0.0908(20) 1.21s/it mem/rank 73.9GB
+step 1420 exposure 11360 rf 0.0840(20) 1.22s/it mem/rank 73.9GB
+step 1440 exposure 11520 rf 0.0846(20) 1.20s/it mem/rank 73.9GB
+step 1460 exposure 11680 rf 0.0810(20) 1.20s/it mem/rank 73.9GB
+step 1480 exposure 11840 rf 0.0883(20) 1.20s/it mem/rank 73.9GB
+step 1500 exposure 12000 rf 0.0803(20) 1.21s/it mem/rank 73.9GB
+step 1520 exposure 12160 rf 0.0846(20) 1.21s/it mem/rank 73.9GB
+step 1540 exposure 12320 rf 0.0922(20) 1.21s/it mem/rank 73.9GB
+step 1560 exposure 12480 rf 0.0853(20) 1.22s/it mem/rank 73.9GB
+step 1580 exposure 12640 rf 0.0771(20) 1.21s/it mem/rank 73.9GB
+step 1600 exposure 12800 rf 0.0871(20) 1.20s/it mem/rank 73.9GB
+step 1620 exposure 12960 rf 0.0774(20) 1.22s/it mem/rank 73.9GB
+step 1640 exposure 13120 rf 0.0852(20) 1.22s/it mem/rank 73.9GB
+step 1660 exposure 13280 rf 0.0697(20) 1.20s/it mem/rank 73.9GB
+step 1680 exposure 13440 rf 0.0790(20) 1.25s/it mem/rank 73.9GB
+step 1700 exposure 13600 rf 0.0777(20) 1.20s/it mem/rank 73.9GB
+step 1720 exposure 13760 rf 0.0903(20) 1.22s/it mem/rank 73.9GB
+step 1740 exposure 13920 rf 0.0875(20) 1.22s/it mem/rank 73.9GB
+step 1760 exposure 14080 rf 0.0883(20) 1.21s/it mem/rank 73.9GB
+step 1780 exposure 14240 rf 0.0846(20) 1.21s/it mem/rank 73.9GB
+step 1800 exposure 14400 rf 0.0755(20) 1.20s/it mem/rank 73.9GB
+step 1820 exposure 14560 rf 0.0747(20) 1.20s/it mem/rank 73.9GB
+step 1840 exposure 14720 rf 0.0857(20) 1.20s/it mem/rank 73.9GB
+step 1860 exposure 14880 rf 0.0908(20) 1.19s/it mem/rank 73.9GB
+VAL step 1875 val_loss 0.13463  (27초)
+saved checkpoint at step 1875
+step 1880 exposure 15040 rf 0.0820(20) 2.28s/it mem/rank 73.9GB
+step 1900 exposure 15200 rf 0.0748(20) 1.22s/it mem/rank 73.9GB
+step 1920 exposure 15360 rf 0.0785(20) 1.22s/it mem/rank 73.9GB
+step 1940 exposure 15520 rf 0.0782(20) 1.21s/it mem/rank 73.9GB
+step 1960 exposure 15680 rf 0.0816(20) 1.23s/it mem/rank 73.9GB
+step 1980 exposure 15840 rf 0.0792(20) 1.20s/it mem/rank 73.9GB
+step 2000 exposure 16000 rf 0.0801(20) 1.20s/it mem/rank 73.9GB
+step 2020 exposure 16160 rf 0.0809(20) 1.20s/it mem/rank 73.9GB
+step 2040 exposure 16320 rf 0.0845(20) 1.20s/it mem/rank 73.9GB
+step 2060 exposure 16480 rf 0.0754(20) 1.20s/it mem/rank 73.9GB
+step 2080 exposure 16640 rf 0.0771(20) 1.20s/it mem/rank 73.9GB
+step 2100 exposure 16800 rf 0.0792(20) 1.22s/it mem/rank 73.9GB
+step 2120 exposure 16960 rf 0.0870(20) 1.22s/it mem/rank 73.9GB
+step 2140 exposure 17120 rf 0.0858(20) 1.21s/it mem/rank 73.9GB
+step 2160 exposure 17280 rf 0.0757(20) 1.20s/it mem/rank 73.9GB
+step 2180 exposure 17440 rf 0.0922(20) 1.20s/it mem/rank 73.9GB
+step 2200 exposure 17600 rf 0.0830(20) 1.21s/it mem/rank 73.9GB
+step 2220 exposure 17760 rf 0.0806(20) 1.20s/it mem/rank 73.9GB
+step 2240 exposure 17920 rf 0.0818(20) 1.20s/it mem/rank 73.9GB
+step 2260 exposure 18080 rf 0.0830(20) 1.20s/it mem/rank 73.9GB
+step 2280 exposure 18240 rf 0.0698(20) 1.20s/it mem/rank 73.9GB
+step 2300 exposure 18400 rf 0.0803(20) 1.22s/it mem/rank 73.9GB
+step 2320 exposure 18560 rf 0.0815(20) 1.22s/it mem/rank 73.9GB
+step 2340 exposure 18720 rf 0.0855(20) 1.21s/it mem/rank 73.9GB
+step 2360 exposure 18880 rf 0.0899(20) 1.20s/it mem/rank 73.9GB
+step 2380 exposure 19040 rf 0.0867(20) 1.20s/it mem/rank 73.9GB
+step 2400 exposure 19200 rf 0.0908(20) 1.21s/it mem/rank 73.9GB
+step 2420 exposure 19360 rf 0.0884(20) 1.22s/it mem/rank 73.9GB
+step 2440 exposure 19520 rf 0.0758(20) 1.22s/it mem/rank 73.9GB
+step 2460 exposure 19680 rf 0.0813(20) 1.20s/it mem/rank 73.9GB
+step 2480 exposure 19840 rf 0.0808(20) 1.20s/it mem/rank 73.9GB
+step 2500 exposure 20000 rf 0.0739(20) 1.20s/it mem/rank 73.9GB
+VAL step 2500 val_loss 0.13066  (21초)
+saved checkpoint at step 2500
+step 2520 exposure 20160 rf 0.0729(20) 3.09s/it mem/rank 73.9GB
+step 2540 exposure 20320 rf 0.0731(20) 1.22s/it mem/rank 73.9GB
+step 2560 exposure 20480 rf 0.0835(20) 1.20s/it mem/rank 73.9GB
+step 2580 exposure 20640 rf 0.0829(20) 1.20s/it mem/rank 73.9GB
+step 2600 exposure 20800 rf 0.0818(20) 1.20s/it mem/rank 73.9GB
+step 2620 exposure 20960 rf 0.0805(20) 1.22s/it mem/rank 73.9GB
+step 2640 exposure 21120 rf 0.0777(20) 1.20s/it mem/rank 73.9GB
+step 2660 exposure 21280 rf 0.0740(20) 1.22s/it mem/rank 73.9GB
+step 2680 exposure 21440 rf 0.0835(20) 1.22s/it mem/rank 73.9GB
+step 2700 exposure 21600 rf 0.0785(20) 1.19s/it mem/rank 73.9GB
+step 2720 exposure 21760 rf 0.0739(20) 1.21s/it mem/rank 73.9GB
+step 2740 exposure 21920 rf 0.0755(20) 1.21s/it mem/rank 73.9GB
+step 2760 exposure 22080 rf 0.0797(20) 1.22s/it mem/rank 73.9GB
+step 2780 exposure 22240 rf 0.0730(20) 1.20s/it mem/rank 73.9GB
+step 2800 exposure 22400 rf 0.0848(20) 1.21s/it mem/rank 73.9GB
+step 2820 exposure 22560 rf 0.0732(20) 1.20s/it mem/rank 73.9GB
+step 2840 exposure 22720 rf 0.0787(20) 1.20s/it mem/rank 73.9GB
+step 2860 exposure 22880 rf 0.0738(20) 1.20s/it mem/rank 73.9GB
+step 2880 exposure 23040 rf 0.0806(20) 1.21s/it mem/rank 73.9GB
+step 2900 exposure 23200 rf 0.0690(20) 1.22s/it mem/rank 73.9GB
+step 2920 exposure 23360 rf 0.0726(20) 1.21s/it mem/rank 73.9GB
+step 2940 exposure 23520 rf 0.0734(20) 1.20s/it mem/rank 73.9GB
+step 2960 exposure 23680 rf 0.0759(20) 1.20s/it mem/rank 73.9GB
+step 2980 exposure 23840 rf 0.0858(20) 1.20s/it mem/rank 73.9GB
+step 3000 exposure 24000 rf 0.0758(20) 1.20s/it mem/rank 73.9GB
+step 3020 exposure 24160 rf 0.0692(20) 1.20s/it mem/rank 73.9GB
+step 3040 exposure 24320 rf 0.0753(20) 1.20s/it mem/rank 73.9GB
+step 3060 exposure 24480 rf 0.0784(20) 1.20s/it mem/rank 73.9GB
+step 3080 exposure 24640 rf 0.0878(20) 1.21s/it mem/rank 73.9GB
+step 3100 exposure 24800 rf 0.0694(20) 1.20s/it mem/rank 73.9GB
+step 3120 exposure 24960 rf 0.0718(20) 1.20s/it mem/rank 73.9GB
+VAL step 3125 val_loss 0.13372  (19초)
+saved checkpoint at step 3125
+step 3140 exposure 25120 rf 0.0801(20) 2.73s/it mem/rank 73.9GB
+step 3160 exposure 25280 rf 0.0737(20) 1.21s/it mem/rank 73.9GB
+step 3180 exposure 25440 rf 0.0710(20) 1.20s/it mem/rank 73.9GB
+step 3200 exposure 25600 rf 0.0801(20) 1.20s/it mem/rank 73.9GB
+step 3220 exposure 25760 rf 0.0720(20) 1.20s/it mem/rank 73.9GB
+step 3240 exposure 25920 rf 0.0709(20) 1.21s/it mem/rank 73.9GB
+step 3260 exposure 26080 rf 0.0868(20) 1.21s/it mem/rank 73.9GB
+step 3280 exposure 26240 rf 0.0800(20) 1.21s/it mem/rank 73.9GB
+step 3300 exposure 26400 rf 0.0745(20) 1.20s/it mem/rank 73.9GB
+step 3320 exposure 26560 rf 0.0697(20) 1.19s/it mem/rank 73.9GB
+step 3340 exposure 26720 rf 0.0772(20) 1.20s/it mem/rank 73.9GB
+step 3360 exposure 26880 rf 0.0797(20) 1.20s/it mem/rank 73.9GB
+step 3380 exposure 27040 rf 0.0868(20) 1.20s/it mem/rank 73.9GB
+step 3400 exposure 27200 rf 0.1071(20) 1.20s/it mem/rank 73.9GB
+step 3420 exposure 27360 rf 0.0942(20) 1.20s/it mem/rank 73.9GB
+step 3440 exposure 27520 rf 0.0970(20) 1.20s/it mem/rank 73.9GB
+step 3460 exposure 27680 rf 0.0764(20) 1.20s/it mem/rank 73.9GB
+step 3480 exposure 27840 rf 0.0878(20) 1.20s/it mem/rank 73.9GB
+step 3500 exposure 28000 rf 0.0844(20) 1.20s/it mem/rank 73.9GB
+step 3520 exposure 28160 rf 0.0821(20) 1.22s/it mem/rank 73.9GB
+step 3540 exposure 28320 rf 0.0794(20) 1.21s/it mem/rank 73.9GB
+step 3560 exposure 28480 rf 0.0733(20) 1.20s/it mem/rank 73.9GB
+step 3580 exposure 28640 rf 0.0749(20) 1.20s/it mem/rank 73.9GB
+step 3600 exposure 28800 rf 0.0765(20) 1.20s/it mem/rank 73.9GB
+step 3620 exposure 28960 rf 0.0751(20) 1.19s/it mem/rank 73.9GB
+step 3640 exposure 29120 rf 0.0726(20) 1.21s/it mem/rank 73.9GB
+step 3660 exposure 29280 rf 0.0865(20) 1.22s/it mem/rank 73.9GB
+step 3680 exposure 29440 rf 0.0708(20) 1.22s/it mem/rank 73.9GB
+step 3700 exposure 29600 rf 0.0877(20) 1.21s/it mem/rank 73.9GB
+step 3720 exposure 29760 rf 0.0812(20) 1.19s/it mem/rank 73.9GB
+step 3740 exposure 29920 rf 0.0768(20) 1.21s/it mem/rank 73.9GB
+VAL step 3750 val_loss 0.13131  (18초)
+saved checkpoint at step 3750
+step 3760 exposure 30080 rf 0.0787(20) 2.49s/it mem/rank 73.9GB
+step 3780 exposure 30240 rf 0.0710(20) 1.22s/it mem/rank 73.9GB
+step 3800 exposure 30400 rf 0.0781(20) 1.21s/it mem/rank 73.9GB
+step 3820 exposure 30560 rf 0.0723(20) 1.20s/it mem/rank 73.9GB
+step 3840 exposure 30720 rf 0.0693(20) 1.20s/it mem/rank 73.9GB
+step 3860 exposure 30880 rf 0.0705(20) 1.20s/it mem/rank 73.9GB
+step 3880 exposure 31040 rf 0.0767(20) 1.20s/it mem/rank 73.9GB
+step 3900 exposure 31200 rf 0.0740(20) 1.20s/it mem/rank 73.9GB
+step 3920 exposure 31360 rf 0.0721(20) 1.21s/it mem/rank 73.9GB
+step 3940 exposure 31520 rf 0.0725(20) 1.20s/it mem/rank 73.9GB
+step 3960 exposure 31680 rf 0.0718(20) 1.20s/it mem/rank 73.9GB
+step 3980 exposure 31840 rf 0.0792(20) 1.20s/it mem/rank 73.9GB
+step 4000 exposure 32000 rf 0.0720(20) 1.20s/it mem/rank 73.9GB
+step 4020 exposure 32160 rf 0.0800(20) 1.20s/it mem/rank 73.9GB
+step 4040 exposure 32320 rf 0.0728(20) 1.20s/it mem/rank 73.9GB
+step 4060 exposure 32480 rf 0.0799(20) 1.20s/it mem/rank 73.9GB
+step 4080 exposure 32640 rf 0.0687(20) 1.21s/it mem/rank 73.9GB
+step 4100 exposure 32800 rf 0.0664(20) 1.20s/it mem/rank 73.9GB
+step 4120 exposure 32960 rf 0.0765(20) 1.21s/it mem/rank 73.9GB
+step 4140 exposure 33120 rf 0.0666(20) 1.21s/it mem/rank 73.9GB
+step 4160 exposure 33280 rf 0.0797(20) 1.20s/it mem/rank 73.9GB
+step 4180 exposure 33440 rf 0.0704(20) 1.22s/it mem/rank 73.9GB
+step 4200 exposure 33600 rf 0.0742(20) 1.21s/it mem/rank 73.9GB
+step 4220 exposure 33760 rf 0.0718(20) 1.20s/it mem/rank 73.9GB
+step 4240 exposure 33920 rf 0.0707(20) 1.20s/it mem/rank 73.9GB
+step 4260 exposure 34080 rf 0.0654(20) 1.20s/it mem/rank 73.9GB
+step 4280 exposure 34240 rf 0.0679(20) 1.21s/it mem/rank 73.9GB
+step 4300 exposure 34400 rf 0.0819(20) 1.20s/it mem/rank 73.9GB
+step 4320 exposure 34560 rf 0.0809(20) 1.21s/it mem/rank 73.9GB
+step 4340 exposure 34720 rf 0.0770(20) 1.22s/it mem/rank 73.9GB
+step 4360 exposure 34880 rf 0.0725(20) 1.21s/it mem/rank 73.9GB
+VAL step 4375 val_loss 0.12953  (24초)
+saved checkpoint at step 4375
+목표 스텝 4375 도달 — 종료 (현재 4375)
