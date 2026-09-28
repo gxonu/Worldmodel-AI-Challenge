@@ -23,7 +23,6 @@ submission_code/
         cr1_empty_string_text_embeddings.pt
   weights/
     v014_stride4_200k_soup.pt      # 실제 제출 추론 weight
-  submission_final.csv             # 대회에 실제 업로드한 CSV
 ```
 
 대회 데이터, 공식 Submission Kit, 공개 Cosmos 소스와 기반 checkpoint는 포함되지 않습니다. 
@@ -37,7 +36,7 @@ cp -a /path/to/open/data/. data/
 cp -a /path/to/open/submission_kit/. submission_kit/
 ```
 
-`submission_final.csv`는 Submission Kit으로 생성해 실제 업로드한 최종 CSV 원본입니다.
+실제 업로드한 최종 CSV 원본(`submission_final.csv`)은 용량 문제로 공개 저장소에서 제외했습니다.
 새 추론은 항상 영상에서 `outputs/final/submission_features.csv`를 다시 생성합니다. 
 공식 feature extractor의 CUDA 연산 환경에 따라 새 CSV의 마지막 소수 자릿수는 실제 업로드 원본과 달라질 수 있습니다.
 
@@ -216,7 +215,6 @@ anchor는 생성 영상과 제공 첫 이미지의 차이로 motion mask를 만�
 - `inference.py`: 첨부/재학습 weight 선택부터 CSV까지 추론 진입점
 - `code/inference/postprocess.py`: action 기반 고정 후처리
 - `weights/v014_stride4_200k_soup.pt`: 실제 제출 추론 최종 weight
-- `submission_final.csv`: 실제 업로드 CSV 원본
 - `logs/`: 보존된 Stage 1·Stage 2 학습 로그
 - `requirements_*.txt`: 학습·추론 및 공식 Kit의 검증 라이브러리 버전
 - `LICENSES/`: 파생 weight 재배포에 필요한 NVIDIA 라이선스
