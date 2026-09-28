@@ -1,15 +1,17 @@
 # 로봇 미래 행동 영상 생성 : 월드 모델 챌린지
 
-**2026 인하 인공지능 챌린지 — 대학원생 트랙 2위 (최우수상)** · 팀 `최후의 18시간`
+![전체 파이프라인](assets/pipeline-overview.png)
 
 현재 로봇 이미지 **1장**(640×480)과 앞으로 수행할 **행동 시퀀스**(16×6)를 입력받아,
-그 행동을 따라 움직이는 **미래 영상 16프레임**을 생성합니다.
+그 행동을 따라 움직이는 **미래 영상 16프레임**을 생성하는 2026 인하 인공지능 챌린지 **대학원생 트랙 2위(최우수상) 솔루션**입니다. · 팀 `최후의 18시간`
 
 <p align="center">
   <img src="assets/qualitative_3x3.png" width="100%">
   <br>
   <em>위: 정답 · 가운데: 공식 Baseline · 아래: 제출 모델 — <a href="assets/qualitative_3x3.mp4">재생 영상</a></em>
 </p>
+
+> 정성 예시는 정답 영상이 공개된 train 홀드아웃 세트 기준입니다 (평가 세트는 정답 비공개).
 
 ---
 
@@ -144,6 +146,39 @@ pretrained/cosmos-predict2.5/.venv/bin/python train.py \
 ├── presentation/       # 발표 슬라이드 · 스크립트
 └── docs/REPRODUCE.md   # 재현 절차 상세
 ```
+
+---
+
+## 구현과 그림의 대응
+
+위 그림의 각 요소가 코드 어디에 있는지 정리합니다.
+
+**파이프라인** ([`assets/pipeline-overview.png`](assets/pipeline-overview.png))
+
+| 그림 요소 | 구현 |
+|---|---|
+| 입력 — 조건 이미지 · 행동 시퀀스 | `code/train/so100_dataset.py` (학습 클립), `code/preprocess/build_index.py` · `rebuild_latent_manifest.py` (stride 8/4 창 구성) |
+| VAE latent 사전 인코딩 | `code/preprocess/precompute_latents.py` |
+| 생성 모델 — Cosmos DiT ×28 | `code/train/load_dit.py` · `build_dit()` (`ActionChunkConditionedMinimalV1LVGDiT`) |
+| Stage 1 · Stage 2 학습 루프 | `code/train/train_lora.py` — Flow Matching 손실 (`rf_loss`) |
+| Latent IDM (행동 판독기) | `code/train/train_latent_idm2.py` · `LatentIDM2` |
+| IDM 보조 손실 | `code/train/train_lora.py` — `aux_l1 = |IDM(x̂₀) − action|`, `AUX=1` · `W_AUX=0.3` · `P_AUX=0.3` |
+| Model Soup | `code/train/make_soup.py` |
+| 생성 영상 (steps 30 · seed 7 · AG 0.6) | `code/inference/generate_eval.py`, 설정은 `configs/inference_config.json` |
+| 행동 기반 후처리 (45° 분기 · 배경 복원) | `code/inference/postprocess.py` · `use_anchor()` · `background_anchor()` |
+| 공식 Kit 변환 · 제출 검증 | `inference.py` (Kit 호출), `code/inference/verify_submission.py` |
+
+**아키텍처** ([`assets/architecture.png`](assets/architecture.png))
+
+| 그림 요소 | 구현 |
+|---|---|
+| 행동 임베더 (두 개의 MLP) | Cosmos 기본 구조의 `action_embedder` — `train_lora.py`에서 학습 대상으로 해제. 첫 층(fc1)은 입력 차원이 달라 재초기화 |
+| LoRA r32 (Self/Cross-Attention · MLP) | `train_lora.py` · `LoraConfig(target_modules=[q_proj, k_proj, v_proj, output_proj, layer1, layer2])` |
+| 시간 조건 · AdaLN 조건 주입 | `load_dit.py` · `use_adaln_lora=True` |
+| 기본 가중치 고정 | `train_lora.py` — LoRA와 행동 조건 파라미터(`action_embedder` 등)만 학습, 나머지 동결 |
+
+> `code/train/action_token_dit.py`(행동 토큰 cross-attention, `ATOK=1`)와 `code/train/unified_losses.py`(`UNIFIED_V2=1`)는
+> 실험 과정에서 시도한 변형으로, **최종 제출 모델에는 사용되지 않았습니다** (기본값 off).
 
 ---
 
